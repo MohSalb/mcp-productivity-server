@@ -172,11 +172,6 @@ send email via SMTP" message (see `email_client.py`'s `EmailSendError`).
   https://docs.python.org/3/library/smtplib.html and
   https://docs.python.org/3/library/email.examples.html.
 
-## Limitations
+## Ai Disclosure
 
-See the Reflection document submitted to Canvas for a fuller
-discussion. In short: the task store is a single unlocked-by-user-id
-JSON file (fine for one local user, not multi-tenant), the rate
-limiter is in-memory/per-process (resets on restart, doesn't scale
-across multiple server instances), and `send_email_draft` only
-supports a single plain-text recipient (no HTML, attachments, or CC/BCC).
+I used Claude's Sonnet Model in this assignment
