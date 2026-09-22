@@ -1,0 +1,14 @@
+# Minimal, pip-installable requirements (for graders/reviewers without uv).
+# Pinned to the versions this project was built and tested against
+# (see uv.lock for the fully resolved/hashed dependency tree if using uv).
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Preferred workflow (see README.md) is `uv sync`, which uses uv.lock.
+
+mcp[cli]<2
+python-dotenv>=1.2.3
+
+# Dev/test only:
+pytest>=8.0.0

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "personal-productivity": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/ABSOLUTE/PATH/TO/mcp-productivity-server",
+        "run",
+        "productivity-mcp"
+      ]
+    }
+  }
+}

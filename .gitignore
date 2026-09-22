@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets - never commit real credentials
+.env
+
+# Local runtime data (task store)
+data/
+
+# Test / tooling caches
+.pytest_cache/
+*.log
+
